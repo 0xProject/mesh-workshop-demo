@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "esnext",
+      "outDir": "lib",
+      "strict": true,
+      "noUnusedLocals": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": false,
+      "noUnusedParameters": true
+    },
+    "include": ["src"]
+  }
+  

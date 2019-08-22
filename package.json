@@ -1,0 +1,18 @@
+{
+  "name": "mesh-workshop-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "get-stats": "tsc; node lib/get_stats.js",
+    "order-stream": "tsc; node lib/order_stream.js",
+    "all-orders": "tsc; node lib/all_orders.js",
+    "add-orders": "tsc; node lib/add_orders.js"
+  },
+  "dependencies": {
+    "@0x/mesh-rpc-client": "^3.0.1-beta"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
