@@ -1,7 +1,7 @@
 import { WSClient, SignedOrder, BigNumber } from '@0x/mesh-rpc-client';
 
 (async () => {
-    const c = new WSClient("http://localhost:60557");
+    const c = new WSClient("ws://localhost:60557");
 
     const signedOrder: SignedOrder = {
 		"senderAddress": "0x0000000000000000000000000000000000000000",
