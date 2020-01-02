@@ -10,9 +10,9 @@
     "add-orders": "tsc; node lib/add_orders.js"
   },
   "dependencies": {
-    "@0x/mesh-rpc-client": "^3.0.1-beta"
+    "@0x/mesh-rpc-client": "^7.0.1-beta"
   },
   "devDependencies": {
-    "typescript": "^3.5.3"
+    "typescript": "^3.7.4"
   }
 }
