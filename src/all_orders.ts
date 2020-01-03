@@ -5,7 +5,7 @@ import { WSClient } from '@0x/mesh-rpc-client';
 
     const orders = await c.getOrdersAsync();
 
-    console.log(`Got ${orders.length} orders!`);
+    console.log(`Got ${orders.ordersInfos.length} orders!`);
 
     process.exit(0);
 })()
